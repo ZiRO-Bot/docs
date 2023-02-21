@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ZiRO-Bot/docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,6 +58,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
+        hideOnScroll: true,
         title: 'Z3R0',
         logo: {
           alt: 'Z3R0 Logo',
@@ -69,6 +70,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'doc',
+            docId: 'tagblocks/intro',
+            position: 'left',
+            label: 'Tag Blocks',
           },
         ],
       },
