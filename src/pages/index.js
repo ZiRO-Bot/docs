@@ -16,9 +16,14 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+            className="button button--info button--lg"
+            to="https://discord.com/oauth2/authorize?client_id=740122842988937286&scope=bot&permissions=2080898294">
+            Invite
+          </Link>
+          <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://discord.gg/sP9xRy6">
+            Support
           </Link>
         </div>
       </div>
