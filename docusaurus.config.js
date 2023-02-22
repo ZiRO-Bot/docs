@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Z3R0',
-  tagline: 'Libre multi-purpose discord bot',
+  title: 'Z3R0 Docs',
+  tagline: 'A libre multi-purpose discord bot',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -114,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Z3R0. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

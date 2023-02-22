@@ -32,7 +32,7 @@ can be added after block's name or after parameter option.
 
 :::note
 
-Not all blocks are supported by these listed features, **[click here to see more details.](#)**
+Not all blocks are supported by these listed features, **[click here to see more details.](category/blocks)**
 
 :::
 
