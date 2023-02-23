@@ -77,6 +77,12 @@ const config = {
             position: 'left',
             label: 'Tag Blocks',
           },
+          {
+            type: 'doc',
+            docId: 'dev/intro',
+            position: 'left',
+            label: 'For Developers',
+          },
         ],
       },
       footer: {
