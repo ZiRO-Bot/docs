@@ -1,5 +1,4 @@
 ---
-slug: /dev
 ---
 
 # Hosting
