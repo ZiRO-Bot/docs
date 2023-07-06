@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build website
-        run: npm run build && mv build .build && mkdir build && mkdir build && mv .build build/docs
+        run: npm run build && mv build .build && mkdir build && mv .build build/docs
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
