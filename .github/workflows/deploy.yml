@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build website
-        run: npm run build && mv build .build && mkdir build && mv .build build/docs && echo "zibot.aap.my.id" > build/docs/CNAME
+        run: npm run build && mv build .build && mkdir build && mv .build build/docs
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
@@ -38,3 +38,4 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          cname: zibot.aap.my.id
