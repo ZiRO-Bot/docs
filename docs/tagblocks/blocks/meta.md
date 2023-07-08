@@ -3,6 +3,8 @@
 
 # Meta Blocks
 
+Blocks that interact with the bot or the bot's command-related stuff. (e.g. Getting user's argument(s) when they execute `!!somecommand argument goes here`)
+
 ## Argument Block
 
 :::note
